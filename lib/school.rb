@@ -18,19 +18,11 @@ class School
   end
   
   def grade(grade)
-    self.roster[grade]
+    @roster[grade]
   end
 
 def sort 
   self.roster.each do |grade, student|
-<<<<<<< HEAD
-    sort[grade] = student.sort
-  end
+  
 end
-end
-=======
-    student.sort!
-  end
-end
-end
->>>>>>> 1622afdcbae02cdc76347e5ae6a8b8e7c95c666a
+
