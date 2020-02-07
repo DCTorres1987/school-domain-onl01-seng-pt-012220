@@ -18,12 +18,13 @@ class School
   end
   
   def grade(grade)
-    self.roster[grade]
+    @roster[grade]
   end
 
-def sort 
-  self.roster.each do |grade, student|
-    sort[grade] = student.sort
+def sort
+  @roster.each do |key, value|
+    @roster[key] = value.sort
   end
 end
 end
+
