@@ -1,5 +1,4 @@
 # code here!
-require 'pry'
 
 class School
   attr_reader :roster, :name
@@ -24,7 +23,6 @@ class School
 
 def sort
   @roster.each do |key, value|
-    binding pry
     @roster[key] = value.sort
   end
 end
