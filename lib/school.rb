@@ -21,8 +21,5 @@ class School
     @roster[grade]
   end
 
-def sort 
-  self.roster.each do |grade, student|
-  
-end
+
 
