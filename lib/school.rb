@@ -26,4 +26,5 @@ def sort(students)
     students[key] = value.sort
   end
 end
+end
 
